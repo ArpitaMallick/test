@@ -28,3 +28,8 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+ story: anxious_1_story
+  steps:
+  - intent: anxious_1
+  - action: anxious_1_reply
